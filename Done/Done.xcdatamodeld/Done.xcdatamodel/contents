@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2657" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="EntityClothier" representedClassName="EntityClothier" syncable="YES" codeGenerationType="class">
+        <attribute name="itemClo" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EntityDaily" representedClassName="EntityDaily" syncable="YES" codeGenerationType="class">
+        <attribute name="itemDaily" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EntityGen" representedClassName="EntityGen" syncable="YES" codeGenerationType="class">
+        <attribute name="itemGen" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EntityGoogle" representedClassName="EntityGoogle" syncable="YES" codeGenerationType="class">
+        <attribute name="itemGoogle" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="EntityRU" representedClassName="EntityRU" syncable="YES" codeGenerationType="class">
+        <attribute name="itemRU" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="EntityRU" positionX="-45" positionY="0" width="128" height="60"/>
+        <element name="EntityGoogle" positionX="-18" positionY="36" width="128" height="60"/>
+        <element name="EntityClothier" positionX="9" positionY="54" width="128" height="60"/>
+        <element name="EntityGen" positionX="27" positionY="72" width="128" height="60"/>
+        <element name="EntityDaily" positionX="45" positionY="90" width="128" height="60"/>
+    </elements>
+</model>

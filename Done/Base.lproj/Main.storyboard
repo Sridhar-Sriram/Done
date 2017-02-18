@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FsY-Ia-QhF">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Daily-->
+        <scene sceneID="gRD-7D-l6H">
+            <objects>
+                <tableViewController id="3Oi-Gh-8xF" customClass="DailyViewController" customModule="Donep2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" indicatorStyle="white" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="38e-c0-osO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.44511449337005615" green="0.0" blue="0.079743571579456329" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <datePicker key="tableFooterView" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" id="aOR-qd-q54">
+                            <rect key="frame" x="0.0" y="72" width="375" height="81"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <date key="date" timeIntervalSinceReferenceDate="504747151.40650201">
+                                <!--2016-12-29 23:32:31 +0000-->
+                            </date>
+                        </datePicker>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="ree-oG-yqC">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ree-oG-yqC" id="jke-JD-V7v">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <color key="backgroundColor" red="0.44511449337005615" green="0.0" blue="0.079743571579456329" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.44511449337005615" green="0.0" blue="0.079743571579456329" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="3Oi-Gh-8xF" id="Tg2-Rm-Ns8"/>
+                            <outlet property="delegate" destination="3Oi-Gh-8xF" id="SKV-ey-4VD"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Daily" id="iAI-lC-KFZ"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q11-eX-6Ak" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1596" y="-924.28785607196414"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6WO-ZU-XAl">
+            <objects>
+                <navigationController id="8Wi-MI-1Mt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="rsz_daily" selectedImage="rsz_daily" id="oz6-2Q-W5O"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="6tt-SK-izz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3Oi-Gh-8xF" kind="relationship" relationship="rootViewController" id="Fxt-Mx-HWY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xZ5-yu-9JA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2545" y="-924"/>
+        </scene>
+        <!--Rutgers-->
+        <scene sceneID="HBE-ha-FRZ">
+            <objects>
+                <tableViewController id="NuX-OQ-5tL" customClass="RUViewController" customModule="Donep2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="iEC-5U-h9D">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="sectionIndexTrackingBackgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <datePicker key="tableFooterView" contentMode="scaleToFill" highlighted="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" id="cke-KX-qQQ">
+                            <rect key="frame" x="0.0" y="116" width="375" height="92"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <date key="date" timeIntervalSinceReferenceDate="504739732.44294399">
+                                <!--2016-12-29 21:28:52 +0000-->
+                            </date>
+                        </datePicker>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="zOr-gT-vUi">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zOr-gT-vUi" id="sxj-Dn-EdC">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.50196081400000003" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="jWI-Gi-how">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jWI-Gi-how" id="uPX-EC-5EK">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Monday" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="hcL-Zn-ufe">
+                                            <rect key="frame" x="132" y="5" width="97" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <accessibility key="accessibilityConfiguration">
+                                                <accessibilityTraits key="traits" notEnabled="YES"/>
+                                                <bool key="isElement" value="NO"/>
+                                            </accessibility>
+                                            <nil key="textColor"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" spellCheckingType="yes" keyboardAppearance="alert"/>
+                                        </textField>
+                                    </subviews>
+                                    <color key="backgroundColor" red="0.82699476522842641" green="0.82699476522842641" blue="0.82699476522842641" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="NuX-OQ-5tL" id="YdD-Tm-OiF"/>
+                            <outlet property="delegate" destination="NuX-OQ-5tL" id="3o4-ce-hf3"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Rutgers" id="l1c-nF-ycC"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6jB-WQ-eeQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="877.60000000000002" y="-584.25787106446785"/>
+        </scene>
+        <!--Google CLP-->
+        <scene sceneID="4By-Ip-rrf">
+            <objects>
+                <tableViewController id="3fI-eI-dnc" customClass="GoogleViewController" customModule="Donep2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" allowsSelectionDuringEditing="YES" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="5oL-T1-Nhj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="sectionIndexBackgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <datePicker key="tableFooterView" alpha="0.94999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" id="uD4-xG-eAW">
+                            <rect key="frame" x="0.0" y="72" width="375" height="94"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <date key="date" timeIntervalSinceReferenceDate="504729989.74512398">
+                                <!--2016-12-29 18:46:29 +0000-->
+                            </date>
+                        </datePicker>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" showsReorderControl="YES" indentationWidth="10" reuseIdentifier="Cell" id="pPW-8u-vn8" customClass="ButtonCell" customModule="Donep2" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pPW-8u-vn8" id="tJj-Ib-Gs0">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="e7K-ki-sb8" appends="YES" id="fOF-1e-xbA"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="3fI-eI-dnc" id="xtX-mY-45L"/>
+                            <outlet property="delegate" destination="3fI-eI-dnc" id="iua-4A-H6X"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Google CLP" id="Klk-KA-fja"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mrY-Sd-Sd6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="0.5" id="e7K-ki-sb8"/>
+            </objects>
+            <point key="canvasLocation" x="741.60000000000002" y="118.29085457271366"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Mt7-bB-wIn">
+            <objects>
+                <tabBarController id="FsY-Ia-QhF" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="0jH-sy-p44">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="zoa-B6-2d4" kind="relationship" relationship="viewControllers" id="UuI-IM-j8P"/>
+                        <segue destination="qNb-D6-bOZ" kind="relationship" relationship="viewControllers" id="y9u-1m-zHT"/>
+                        <segue destination="DZn-5K-j5e" kind="relationship" relationship="viewControllers" id="fz6-eg-49f"/>
+                        <segue destination="TtK-6X-LkN" kind="relationship" relationship="viewControllers" id="wdk-MM-kKe"/>
+                        <segue destination="8Wi-MI-1Mt" kind="relationship" relationship="viewControllers" id="Qxv-OJ-YrJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nzf-N0-rBZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1506" y="-69"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TBe-DH-y4E">
+            <objects>
+                <navigationController id="qNb-D6-bOZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="google" selectedImage="google" id="GHU-e5-8xu">
+                        <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="image" keyPath="Selected Image" value="rsz_google"/>
+                        </userDefinedRuntimeAttributes>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="QwX-ha-WoX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="3fI-eI-dnc" kind="relationship" relationship="rootViewController" id="cIO-Ra-jcm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="77B-qS-gdi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-76" y="138"/>
+        </scene>
+        <!--GenUN-->
+        <scene sceneID="oJo-52-6bU">
+            <objects>
+                <tableViewController id="tpG-pH-VeI" customClass="GenUNViewController" customModule="Donep2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="6Q8-6v-S1X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="separatorColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <datePicker key="tableFooterView" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" id="l1M-5I-m71">
+                            <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <date key="date" timeIntervalSinceReferenceDate="504743171.16139001">
+                                <!--2016-12-29 22:26:11 +0000-->
+                            </date>
+                        </datePicker>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="84m-kQ-jzf">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="84m-kQ-jzf" id="Pmk-8s-97U">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="tpG-pH-VeI" id="2kh-b8-tKj"/>
+                            <outlet property="delegate" destination="tpG-pH-VeI" id="xV0-Xk-lP2"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="GenUN" id="MKh-7i-sGe"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6wE-E2-bPB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="530.39999999999998" y="905.3973013493254"/>
+        </scene>
+        <!--Clothier-->
+        <scene sceneID="yLr-K5-AHP">
+            <objects>
+                <tableViewController id="DoF-d8-8mh" customClass="ClothierViewController" customModule="Donep2" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="aIk-Yi-a7X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <datePicker key="tableFooterView" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" id="TKc-bc-BxD">
+                            <rect key="frame" x="0.0" y="72" width="375" height="87"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <date key="date" timeIntervalSinceReferenceDate="504747164.88469601">
+                                <!--2016-12-29 23:32:44 +0000-->
+                            </date>
+                        </datePicker>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="ApK-99-Y8V">
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ApK-99-Y8V" id="Xyd-kI-uFF">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="DoF-d8-8mh" id="RpK-MJ-GbB"/>
+                            <outlet property="delegate" destination="DoF-d8-8mh" id="76m-m6-PBq"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Clothier" id="4YV-iU-17m"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="m2Y-Jq-MIw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1104.8" y="805.54722638680664"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="uka-DD-wzB">
+            <objects>
+                <navigationController id="TtK-6X-LkN" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="clo" selectedImage="clo" id="ORZ-L4-smV"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Nh6-ml-COW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="DoF-d8-8mh" kind="relationship" relationship="rootViewController" id="ygl-1n-ZyL"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kGl-wS-aqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2054" y="806"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="k9e-Z6-boa">
+            <objects>
+                <navigationController id="DZn-5K-j5e" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="genun" selectedImage="genun" id="rEe-Ge-wbg"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="2e4-o6-5pj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tpG-pH-VeI" kind="relationship" relationship="rootViewController" id="3mJ-Kd-jY4"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SX0-5M-ffP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-422" y="906"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="TEF-Og-qwF">
+            <objects>
+                <navigationController id="zoa-B6-2d4" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="" image="ru" selectedImage="ru" id="HgY-ee-pG9"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="XQ2-AR-oA1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="NuX-OQ-5tL" kind="relationship" relationship="rootViewController" id="3ZX-iV-Iqc"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tnA-oz-b1q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-75" y="-584"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="clo" width="30" height="30"/>
+        <image name="genun" width="30" height="30"/>
+        <image name="google" width="30" height="30"/>
+        <image name="rsz_daily" width="30" height="30"/>
+        <image name="rsz_google" width="20" height="20"/>
+        <image name="ru" width="30" height="30"/>
+    </resources>
+</document>
