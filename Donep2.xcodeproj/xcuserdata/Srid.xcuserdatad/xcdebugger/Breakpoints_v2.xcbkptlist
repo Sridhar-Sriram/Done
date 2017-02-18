@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Done/DailyViewController.swift"
+            timestampString = "504215787.616068"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "DailyViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.DailyViewController.listItems5.setter : Swift.Array&lt;__ObjC.NSManagedObject&gt;"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/DailyViewController.swift"
+                  timestampString = "507744253.772114"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.DailyViewController.init (style : __C.UITableViewStyle) -&gt; Donep2.DailyViewController"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/DailyViewController.swift"
+                  timestampString = "507744253.774251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.DailyViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Donep2.DailyViewController"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/DailyViewController.swift"
+                  timestampString = "507744253.776385"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.DailyViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Donep2.DailyViewController&gt;"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/DailyViewController.swift"
+                  timestampString = "507744253.778272"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Done/GoogleViewController.swift"
+            timestampString = "504216812.48685"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "GoogleViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.GoogleViewController.listItems3.getter : Swift.Array&lt;__ObjC.NSManagedObject&gt;"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/GoogleViewController.swift"
+                  timestampString = "504743197.149846"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.GoogleViewController.listItems3.setter : Swift.Array&lt;__ObjC.NSManagedObject&gt;"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/GoogleViewController.swift"
+                  timestampString = "504743197.15111"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.GoogleViewController.init (style : __C.UITableViewStyle) -&gt; Donep2.GoogleViewController"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/GoogleViewController.swift"
+                  timestampString = "504743197.152331"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.GoogleViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Donep2.GoogleViewController"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/GoogleViewController.swift"
+                  timestampString = "504743197.153524"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.GoogleViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Donep2.GoogleViewController&gt;"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/GoogleViewController.swift"
+                  timestampString = "504743197.154716"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Done/ButtonCell.swift"
+            timestampString = "505155018.122841"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ButtonCell"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Done/DailyViewController.swift"
+            timestampString = "505160283.16591"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "DailyViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.DailyViewController.__deallocating_deinit"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/DailyViewController.swift"
+                  timestampString = "507744253.787144"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.DailyViewController.__allocating_init (style : __C.UITableViewStyle) -&gt; Donep2.DailyViewController"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/DailyViewController.swift"
+                  timestampString = "507744253.791222"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.DailyViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Donep2.DailyViewController"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/DailyViewController.swift"
+                  timestampString = "507744253.793101"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.DailyViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Donep2.DailyViewController"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/DailyViewController.swift"
+                  timestampString = "507744253.79494"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.DailyViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Donep2.DailyViewController&gt;"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/DailyViewController.swift"
+                  timestampString = "507744253.797241"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.DailyViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Donep2.DailyViewController&gt;"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/DailyViewController.swift"
+                  timestampString = "507744253.799347"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Done/GoogleViewController.swift"
+            timestampString = "505604328.746488"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "tableView(_:commit:forRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Done/GoogleViewController.swift"
+            timestampString = "505605097.477025"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "swipeLeft(recognizer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Done/RUViewController.swift"
+            timestampString = "506321520.961275"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "2"
+            endingLineNumber = "2">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.RUViewController.__deallocating_deinit"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/RUViewController.swift"
+                  timestampString = "507744253.814158"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.RUViewController.init (style : __C.UITableViewStyle) -&gt; Donep2.RUViewController"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/RUViewController.swift"
+                  timestampString = "507744253.816105"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.RUViewController.__allocating_init (style : __C.UITableViewStyle) -&gt; Donep2.RUViewController"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/RUViewController.swift"
+                  timestampString = "507744253.81817"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.RUViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Donep2.RUViewController"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/RUViewController.swift"
+                  timestampString = "507744253.820121"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.RUViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Donep2.RUViewController&gt;"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/RUViewController.swift"
+                  timestampString = "507744253.824279"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Donep2.RUViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Donep2.RUViewController&gt;"
+                  moduleName = "Donep2"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Srid/Documents/Xcode/Donep2/Done/RUViewController.swift"
+                  timestampString = "507744253.826444"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
